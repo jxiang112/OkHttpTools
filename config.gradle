@@ -1,0 +1,53 @@
+ext {
+    //模块开发模式
+    IS_SINGLE_DEV = true
+
+    //应用id
+    APPLICATION_ID = "com.wyx.libs.okhttptools"//"""com.wyx.app.farm"
+    //App版本号
+    /**
+     * 规则：
+     * a.b.c
+     * a/b/c 取值范围0-999
+     * c + b * 1000 + a * 1000000
+     */
+    APP_VERSION_CODE = 1000000
+    //App版本名称
+    /**
+     * 规则：
+     * 开发版本：a.b.c.dev
+     * 灰度版本：a.b.c.beta
+     * 正式版本：a.b.c
+     */
+//    APP_VERSION_NAME = "1.4.0"
+    APP_VERSION_NAME = "v1.0.0"// + System.currentTimeMillis()
+
+    //android sdk最小版本
+    MIN_SDK_VERSION = 21
+    //android sdk 目标版本
+    // Modify begin by meitu.weiyx for Bug 1010374
+//    TARGET_SDK_VERSION = 27
+    //===========div============
+    TARGET_SDK_VERSION = 29
+    // Modify end
+    //android sdk 编译版本
+    COMPILE_SDK_VERSION = 29
+    //android 编译工具版本
+    BUILD_TOOLS_VERSION = "29.0.2"
+
+
+    //rxjava 版本
+//    RXJAVA_VERSION = "3.0.0-RC4";//"2.2.14"
+    RXJAVA_VERSION = "2.2.14"
+    RXANDROID_VERSION = "2.1.1"
+
+    //retrofit版本
+    RETROFIT_VERSION = "2.6.2"
+
+    //okhttp logging
+    OK_LOGGING = "4.2.1"
+
+    //gson 版本
+    GSON_VERSION = "2.8.4"
+
+}
